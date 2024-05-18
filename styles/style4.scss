@@ -1,0 +1,197 @@
+
+  @import 'stylei' ;
+
+    
+    .technic .swiper-slide-active{
+      width: 240px !important;
+      height: 160px !important;
+    }
+    .technic .swiper__slide-link{
+      position: absolute;
+      display: flex;
+      left: 200px;
+      top: 104px;  
+    }
+
+  @media only screen and (max-width: 768px)  {
+  
+.technic {
+  .header {
+    margin-top: 48px;
+    display: flex;
+    margin-bottom: 16px;
+    border-top: $border-top-blue;
+    .header__text{
+      color: $header-text-color;
+      margin: 16px;
+      width: 288px;
+      height: 48px;
+  }
+    }
+  .main {
+      position: relative;
+      display: flex;
+      margin-left: 16px;
+      &::after{
+        z-index: 1;
+        content: "";
+        position: absolute;
+        top: -5px;
+        right: 0px;
+        min-width: 24px;
+        height: 166px;
+        background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+  }
+  .swiper{
+    position: static !important;
+    .swiper-pagination{
+      display: flex;
+      justify-content: center;
+      top: 176px;
+    }
+    .swiper-slide{ 
+      width: 240px !important;
+      height: 160px !important;
+      padding-left: 16px;
+      border: $border-slide-swiper;
+      border-radius: 6px;
+      margin-right: 16px;
+    }
+    }
+    }
+}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1120px) {
+  .technic {
+    .header{
+      display: flex;
+      min-width: 768px;
+      height: 56px;
+      margin-top: 32px;
+      border-top: $border-top-blue;
+      padding-left: 24px;
+      .header__text{
+        color: $header-text-color;
+    }
+  }
+    .main {
+    display: flex;
+    .swiper-slide{
+      .swiper__slide-link{
+        position: absolute;
+        display: flex;
+        left: 168px;
+        top: 104px; 
+      }
+      &:nth-of-type(n+4):nth-of-type(-n+9){
+        display: none;
+      }
+      &:nth-of-type(n+4):nth-of-type(-n+9){
+        &.visible {
+          display: block; 
+        }
+      }
+    }
+  }
+}
+
+
+/* Styles for when the slider is disabled */
+.sample-slider.-non-slider{
+  display: flex;
+}
+.sample-slider.-non-slider .swiper-wrapper {
+    transform: inherit!important;   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.technic .sample-slider.-non-slider .swiper-slide {
+    margin-left: 24px;
+    width: 208px !important;
+    height: 160px !important;
+    padding-left: 16px;
+    border: $border-slide-swiper;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+.sample-slider.-non-slider .swiper-slide-duplicate {
+    display: none;
+}
+.swiper{
+  overflow: visible !important;
+  
+}
+/* Styles for when the slider is disabled */
+ 
+
+
+
+ }
+
+ @media only screen and (min-width: 1121px){ 
+  .technic {
+    .header{
+      margin-top: 51px;
+      border-top: $border-top-blue;
+      .header__text{
+        color: $header-text-color;
+    }
+    }
+    .main {
+      display: flex;
+      .swiper-slide{
+        .swiper__slide-link{
+          position: absolute;
+          display: flex;
+          left: 184px;
+          top: 104px;
+      }
+        &:nth-of-type(n+5):nth-of-type(-n+9){
+          display:  none;
+        }
+        &:nth-of-type(n+5):nth-of-type(-n+9){
+          &.visible{
+            display: block;
+          }
+        }
+      }
+  }
+    .aside{
+      display: flex;
+      margin-left: 24px;
+      margin-top: 8px;
+  }
+  }
+  
+
+  /* Styles for when the slider is disabled */
+  .sample-slider.-non-slider{
+    display: flex;  
+    width: 1121px;
+  }
+  .sample-slider.-non-slider .swiper-wrapper {
+      transform: inherit!important;   
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      width: 224px ;
+  }
+  .technic .sample-slider.-non-slider .swiper-slide {
+    margin-left: 32px;
+      width: 224px !important;
+      height: 160px !important;
+      padding-left: 16px;
+      border: 1px solid #EAEAEA;
+      border-radius: 6px;
+      margin-bottom: 16px;
+  }
+  .sample-slider.-non-slider .swiper-slide-duplicate {
+      display: none;
+  }
+  .swiper{
+    overflow:visible !important;
+    
+  }
+  /* Styles for when the slider is disabled */
+  
+ }
