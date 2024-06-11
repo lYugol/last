@@ -9,53 +9,52 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
   <link href="style.css" rel="stylesheet"></head>
   <body>
-    <div class="burger-menu-bg">
-      <div class="burger-menu">
-        <header class="header">
-          <div class="header__left-element">
-            <button class="button header__left-button header__left--close"></button>
-            <img class="header__logo" src="img/cps.png" alt="CPS">
-          </div>
-          <div class="header__right-element">
-            <button class="button header__right-button"></button>
-          </div>
-        </header>
-        <div class="main">
-          <nav class="navigation">
-            <ul class="main__navigation-ul">
-              <li><a class="main__navigation-a">Ремонт техники</a></li>
-              <li><a class="main__navigation-a">Услуги и сервисы</a></li>
-              <li><a class="main__navigation-a">Корпоротивным клиентам</a></li>
-              <li><a class="main__navigation-a">Продавцам техники</a></li>
-              <li><a class="main__navigation-a">Партнерам</a></li>
-              <li><a class="main__navigation-a">Производителям</a></li>
-              <li><a class="main__navigation-a">Наши сервисные центры</a></li>
-              <li><a class="main__navigation-a">Контакты</a></li>
-            </ul>
-          </nav>
-        </div>
-        <footer class="footer">
-          <article class="footer__info">
-            <button class="button footer__button button--show"></button>
-            <button class="button footer__button button--ivent"></button>
-            <button class="button footer__button"></button>
-            <div class="p">
-              <div class="text__info">
-                <p class="p__text-email">mail@cps.com</p>
-                <p class="p__text-number">8 800 890 8900</p>
-              </div>
-            </div>
-          </article>
-          <div class="footer__language">
-            <button class="footer__button-language">RU</button>
-            <button class="footer__button-language">EN</button>
-            <button class="footer__button-language">CN</button>
-          </div>
-        </footer>
-      </div>
-    </div>
-
     <div class="service-software">
+      <div class="burger-menu-bg">
+        <div class="burger-menu">
+          <header class="header">
+            <div class="header__left-element">
+              <button class="button header__left-button header__left--close"></button>
+              <img class="header__logo" src="img/cps.png" alt="CPS">
+            </div>
+            <div class="header__right-element">
+              <button class="button header__right-button"></button>
+            </div>
+          </header>
+          <div class="main">
+            <nav class="navigation">
+              <ul class="main__navigation-ul">
+                <li><a class="main__navigation-a">Ремонт техники</a></li>
+                <li><a class="main__navigation-a">Услуги и сервисы</a></li>
+                <li><a class="main__navigation-a">Корпоротивным клиентам</a></li>
+                <li><a class="main__navigation-a">Продавцам техники</a></li>
+                <li><a class="main__navigation-a">Партнерам</a></li>
+                <li><a class="main__navigation-a">Производителям</a></li>
+                <li><a class="main__navigation-a">Наши сервисные центры</a></li>
+                <li><a class="main__navigation-a">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+          <footer class="footer">
+            <article class="footer__info">
+              <button class="button footer__button button--show"></button>
+              <button class="button footer__button button--ivent"></button>
+              <button class="button footer__button"></button>
+              <div class="p">
+                <div class="text__info">
+                  <p class="p__text-email">mail@cps.com</p>
+                  <p class="p__text-number">8 800 890 8900</p>
+                </div>
+              </div>
+            </article>
+            <div class="footer__language">
+              <button class="footer__button-language">RU</button>
+              <button class="footer__button-language">EN</button>
+              <button class="footer__button-language">CN</button>
+            </div>
+          </footer>
+        </div>
+      </div>
       <div class="modal-call-bg">
         <div class="modal-call">
           <div class="modal__call-ramka">
@@ -64,7 +63,7 @@
               <p class="order__call">Заказать звонок</p>
             </header>
             <div class="main">
-              <form action="">
+              <form name="modalCall" action="">
                 <input type="tel" class="main__input" placeholder="Телефон" required pattern="[0-9]+" minlength="11">
                 <div class="info">
                   <p class="text__info">
@@ -88,7 +87,7 @@
               <p class="order__feedback">Обратная связь</p>
             </header>
             <div class="main">
-              <form action="">
+              <form name="modalFeedback" action="">
                 <div class="main__type">
                   <input type="text" class="main__input" placeholder="Имя" required>
                   <input type="tel" class="main__input" placeholder="Телефон" required pattern="[0-9]+" minlength="11">
@@ -157,7 +156,7 @@
                   <img src="./img/icon.png" alt="скрол"><span class="main__skroll-text">Читать далее</span></button>
               </div>
             </div>
-            <img class="main__img-content" src="./img/_MG_3223.png" alt="контент">
+            <img class="main__img-content" src="./img/_MG_3223.jpg" alt="контент">
           </section>
         </main>
       </div>
@@ -239,12 +238,12 @@
       </div>
 
       <div class="price">
-        <header class="header">
-          <div class="header__text">
-            <p class="header__p-text">ЦЕНЫ НА УСЛУГИ</p>
+        <header class="price__header">
+          <div class="price__header-text">
+            <p class="price__header-p-text">ЦЕНЫ НА УСЛУГИ</p>
           </div>
         </header>
-        <div class="main">
+        <div class="price__main">
           <div class="swiper sample-slider">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -336,11 +335,11 @@
             <div class="swiper-pagination custom-pagination"></div>
           </div>
         </div>
-        <aside class="aside__ivent">
-          <div class="aside__ivent-p">Все цены указаны с учетом НДС. Стоимость ремонта указана на
+        <aside class="price__aside-ivent">
+          <div class="price__aside-ivent-p">Все цены указаны с учетом НДС. Стоимость ремонта указана на
             единичную услугу. Для получения коммерческого предложения на
             постоянное обслуживание, оставьте заявку.</div>
-          <a href="#" class="aside__a--push"><span class="aside__ivent-text">Получить коммерческое предложение</span></a>
+          <a href="#" class="price__aside-ivent-a--push"><span class="price__aside-ivent-text">Получить коммерческое предложение</span></a>
         </aside>
       </div>
 
