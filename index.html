@@ -57,20 +57,20 @@
       </div>
       <div class="modal-call-bg">
         <div class="modal-call">
-          <div class="modal__call-ramka">
-            <header class="header">
-              <button class="modal__call--close"> </button>
-              <p class="order__call">Заказать звонок</p>
+          <div class="modal-call__frame">
+            <header class="modal-call__header">
+              <button class="modal-call__header--close"> </button>
+              <p class="modal-call__order-call">Заказать звонок</p>
             </header>
-            <div class="main">
+            <div class="modal-call__main">
               <form name="modalCall" action="">
-                <input type="tel" class="main__input" placeholder="Телефон" required pattern="[0-9]+" minlength="11">
-                <div class="info">
-                  <p class="text__info">
+                <input type="tel" class="modal-call__input" placeholder="Телефон" required pattern="[0-9]+" minlength="11">
+                <div class="modal-call__info">
+                  <p class="modal-call__text-info">
                     Нажимая “отправить”, вы даете согласие на
-                    <a href="https://example.com" class="link__info">обработку персональных данных</a>
+                    <a href="https://example.com" class="modal-call__link-info">обработку персональных данных</a>
                     и соглашаетесь с нашей
-                    <a href="https://example.com" class="link__info">политикой конфиденциальности</a>
+                    <a href="https://example.com" class="modal-call__link-info">политикой конфиденциальности</a>
                   </p>
                 </div>
                 <button type="submit" class="swiper__slide-ico"></button>
@@ -81,25 +81,25 @@
       </div>
       <div class="modal-feedback-bg">
         <div class="modal-feedback">
-          <div class="modal__call-ramka">
-            <header class="header">
-              <button class="modal__feedback-close"> </button>
-              <p class="order__feedback">Обратная связь</p>
+          <div class="modal-call__frame">
+            <header class="modal-feedback__header">
+              <button class="modal-feedback__header--close"> </button>
+              <p class="modal-feedback__order-feedback">Обратная связь</p>
             </header>
-            <div class="main">
+            <div class="modal-feedback__main">
               <form name="modalFeedback" action="">
-                <div class="main__type">
-                  <input type="text" class="main__input" placeholder="Имя" required>
-                  <input type="tel" class="main__input" placeholder="Телефон" required pattern="[0-9]+" minlength="11">
-                  <input type="email" class="main__input main__input-email" placeholder="Электронная почта" required pattern=".+@.+\..+">
-                  <textarea class="main__input main__input-messages" rows="10" cols="30" placeholder="Сообщение"></textarea>
+                <div class="modal-feedback__type">
+                  <input type="text" class="modal-feedback__input" placeholder="Имя" required>
+                  <input type="tel" class="modal-feedback__input" placeholder="Телефон" required pattern="[0-9]+" minlength="11">
+                  <input type="email" class="modal-feedback__input modal-feedback__input-email" placeholder="Электронная почта" required pattern=".+@.+\..+">
+                  <textarea class="modal-feedback__input modal-feedback__input-messages" rows="10" cols="30" placeholder="Сообщение"></textarea>
                 </div>
-                <div class="info">
-                  <p class="text__info">
+                <div class="modal-feedback__info">
+                  <p class="modal-feedback__text-info">
                     Нажимая “отправить”, вы даете согласие на
-                    <a href="https://example.com" class="link__info">обработку персональных данных</a>
+                    <a href="https://example.com" class="modal-feedback__link-info">обработку персональных данных</a>
                     и соглашаетесь с нашей
-                    <a href="https://example.com" class="link__info">политикой конфиденциальности</a>
+                    <a href="https://example.com" class="modal-feedback__link-info">политикой конфиденциальности</a>
                   </p>
                 </div>
                 <button type="submit" class="swiper__slide-ico"></button>
@@ -110,66 +110,66 @@
       </div>
 
       <div class="service">
-        <header class="header">
-          <div class="header__left-element">
-            <button class="header__button header__burger-menu"></button>
-            <img class="header__CPS" src="./img/Group.png" alt="CPS">
+        <header class="service__header">
+          <div class="service__header-left-element">
+            <button class="service__header-button service__header-burger-menu"></button>
+            <img class="service__header-CPS" src="./img/Group.png" alt="CPS">
           </div>
-          <div class="header__right-element">
-            <button class="header__button button--show"></button>
-            <button class="header__button button--ivent"></button>
-            <button class="header__button"></button>
-            <div class="header__divider"><img src="./img/divider.svg" alt="divider"></div>
-            <button class="header__button"><span class="header__button-status">Оставить заявку</span></button>
-            <button class="header__button"><span class="header__button-status">Статус ремонта</span></button>
+          <div class="service__header-right-element">
+            <button class="service__header-button button--show"></button>
+            <button class="service__header-button button--ivent"></button>
+            <button class="service__header-button"></button>
+            <div class="service__header-divider"><img src="./img/divider.svg" alt="divider"></div>
+            <button class="service__header-button"><span class="service__header-button-status">Оставить заявку</span></button>
+            <button class="service__header-button"><span class="service__header-button-status">Статус ремонта</span></button>
           </div>
         </header>
-        <main class="main">
+        <main class="service__main">
           <h1>Услуги и сервисы</h1>
-          <div class="main__button-nav">
-            <div class="main__buttons">
-              <button class="main__button">Ремонтируемые бренды</button>
-              <button class="main__button">Ремонтируемые устройства</button>
-              <button class="main__button">Цены на услуги</button>
-              <button class="main__button">Адреса сервисных центров</button>
-              <button class="main__button">Специальные цены</button>
-              <button class="main__button">Отзывы</button>
+          <div class="service__main-button-nav">
+            <div class="service__main-buttons">
+              <button class="service__main-button">Ремонтируемые бренды</button>
+              <button class="service__main-button">Ремонтируемые устройства</button>
+              <button class="service__main-button">Цены на услуги</button>
+              <button class="service__main-button">Адреса сервисных центров</button>
+              <button class="service__main-button">Специальные цены</button>
+              <button class="service__main-button">Отзывы</button>
             </div>
           </div>
-          <section class="main__content">
-            <div class="main__text-window">
-              <p class="main__text">
+          <section class="service__main-content">
+            <div class="service__main-text-window">
+              <p class="service__main-text">
                 Мы являемся авторизованным сервисным центром по ремонту техники
                 Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
                 официальной гарантией производителя.</p>
-              <p class="main__text">
+              <p class="service__main-text">
                 Мы успешно работаем с 1992 года и заслужили репутацию надежного
                 партнера</p>
-              <p class="main__text">
+              <p class="service__main-text">
                 Мы успешно работаем с 1992 года и заслужили репутацию надежного
                 партнера, что подтверждает большое количество постоянных
                 клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
                 и, в свою очередь, советуют нас родным и близким.</p>
 
-              <div class="main__skroll">
-                <button class="main__button">
-                  <img src="./img/icon.png" alt="скрол"><span class="main__skroll-text">Читать далее</span></button>
+              <div class="service__main-skroll">
+                <button class="service__main-button">
+                  <img src="./img/icon.png" alt="скрол"><span class="service__main-skroll-text">Читать далее</span></button>
               </div>
             </div>
-            <div class="main__img">
-              <img class="main__img-content" src="./img/_MG_3223.jpg" alt="контент">
+            <div class="service__main-img">
+              <img class="service__main-img-content" src="./img/_MG_3223.jpg" alt="контент">
             </div>
           </section>
         </main>
       </div>
 
       <div class="equipment">
-        <header class="header">
-          <div class="header__text">
-            <p class="header__p-text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</p>
+        <header class="equipment__header">
+          <div class="equipment__header-text">
+            <p class="equipment__header-p-text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</p>
           </div>
         </header>
-        <div class="main">
+        <div class="equipment__main">
           <div class="swiper sample-slider">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><img class="swiper__slide-organization" src="./img/lenovo.png" alt="Организация">
@@ -204,12 +204,12 @@
       </div>
 
       <div class="technic">
-        <header class="header">
-          <div class="header__text">
-            <p class="header__p-text">РЕМОНТ РАЗЛИЧНЫХ ВИДОВ ТЕХНИКИ</p>
+        <header class="technic__header">
+          <div class="technic__header-text">
+            <p class="technic__header-p-text">РЕМОНТ РАЗЛИЧНЫХ ВИДОВ ТЕХНИКИ</p>
           </div>
         </header>
-        <div class="main">
+        <div class="technic__main">
           <div class="swiper sample-slider">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><p>Ремонт ноутбуков</p>
@@ -341,17 +341,17 @@
           <div class="price__aside-ivent-p">Все цены указаны с учетом НДС. Стоимость ремонта указана на
             единичную услугу. Для получения коммерческого предложения на
             постоянное обслуживание, оставьте заявку.</div>
-          <a href="#" class="price__aside-ivent-a--push"><span class="price__aside-ivent-text">Получить коммерческое предложение</span></a>
+          <a href="#" class="price__aside-ivent--push"><span class="price__aside-ivent-text">Получить коммерческое предложение</span></a>
         </aside>
       </div>
 
       <div class="main-footer">
-        <header class="header">
-          <p class="main__footer-header-num">© 2019 CPS </p>
-          <p class="main__footer-header-text">Разработано командой Apesong</p>
+        <header class="main-footer__header">
+          <p class="main-footer__header-num">© 2019 CPS </p>
+          <p class="main-footer__header-text">Разработано командой Apesong</p>
         </header>
-        <p class="main__footer-main-text"> Политика конфиденциальности</p>
-        <p class="main__footer-info-text">Информация, размещенная на данной странице, не является публичной
+        <p class="main-footer__main-text"> Политика конфиденциальности</p>
+        <p class="main-footer__info-text">Информация, размещенная на данной странице, не является публичной
           офертой</p>
       </div>
     </div>
