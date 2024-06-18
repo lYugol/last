@@ -63,8 +63,8 @@
               <p class="modal-call__order-call">Заказать звонок</p>
             </header>
             <div class="modal-call__main">
-              <form name="modalCall" action="">
-                <input type="tel" class="modal-call__input" placeholder="Телефон" required pattern="[0-9]+" minlength="11">
+              <form action="">
+                <input type="tel" name="modal-call__telephone" class="modal-call__input" placeholder="Телефон" required pattern="[0-9]+" minlength="11">
                 <div class="modal-call__info">
                   <p class="modal-call__text-info">
                     Нажимая “отправить”, вы даете согласие на
@@ -89,9 +89,9 @@
             <div class="modal-feedback__main">
               <form name="modalFeedback" action="">
                 <div class="modal-feedback__type">
-                  <input type="text" class="modal-feedback__input" placeholder="Имя" required>
-                  <input type="tel" class="modal-feedback__input" placeholder="Телефон" required pattern="[0-9]+" minlength="11">
-                  <input type="email" class="modal-feedback__input modal-feedback__input-email" placeholder="Электронная почта" required pattern=".+@.+\..+">
+                  <input type="text" name="modal-feedback__name" class="modal-feedback__input" placeholder="Имя" required>
+                  <input type="tel" name="modal-feedback__telephone" class="modal-feedback__input" placeholder="Телефон" required pattern="[0-9]+" minlength="11">
+                  <input type="email" class="modal-feedback__input modal-feedback__input-email" name="modal-feedback__email" placeholder="Электронная почта" required pattern=".+@.+\..+">
                   <textarea class="modal-feedback__input modal-feedback__input-messages" rows="10" cols="30" placeholder="Сообщение"></textarea>
                 </div>
                 <div class="modal-feedback__info">
