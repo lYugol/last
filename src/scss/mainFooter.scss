@@ -12,20 +12,20 @@
     line-height: 16px;
     margin-right: 4px;
     margin-left: 4px;
-    .main__footer-header-num {
+    &__header-num {
       display: flex;
       text-align: center;
       justify-content: center;
       margin-top: 16px;
       margin-bottom: 0px;
     }
-    .main__footer-header-text {
+    &__header-text {
       margin-top: 0px;
     }
-    .main__footer-main-text {
+    &__main-text {
       margin: 0px;
     }
-    .main__footer-info-text {
+    &__info-text {
       text-align: center;
     }
   }
@@ -39,27 +39,28 @@
     color: $header-text-color;
     font-size: 14px;
     line-height: 16px;
-    .header {
+    &__header {
       margin-left: 24px;
-      .main__footer-header-num {
-        margin-top: 32px;
-        display: flex;
-        text-align: center;
-        margin-bottom: 0px;
-      }
-      .main__footer-header-text {
-        margin-top: 0px;
-        display: flex;
-        white-space: nowrap;
-        margin-right: 35px;
-      }
     }
-    .main__footer-main-text {
+    &__header-num {
+      margin-top: 32px;
+      display: flex;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+    &__header-text {
+      margin-top: 0px;
+      display: flex;
+      white-space: nowrap;
+      margin-right: 35px;
+    }
+
+    &__main-text {
       margin-top: 32px;
       margin-right: 40px;
       white-space: nowrap;
     }
-    .main__footer-info-text {
+    &__info-text {
       margin-top: 32px;
       margin-right: 24px;
       display: flex;
@@ -67,36 +68,76 @@
     }
   }
 }
-@media only screen and (min-width: 1121px) {
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
   .main-footer {
-    margin: auto;
     display: flex;
     border-top: $border-top-blue;
     margin-top: 40px;
     color: $header-text-color;
     font-size: 14px;
     line-height: 16px;
-    .header {
+
+    &__header {
       margin-left: 31px;
-      .main__footer-header-num {
-        margin-top: 32px;
-        display: flex;
-        text-align: center;
-        margin-bottom: 0px;
-      }
-      .main__footer-header-text {
-        margin-top: 0px;
-        display: flex;
-        white-space: nowrap;
-        margin-right: 145px;
-      }
     }
-    .main__footer-main-text {
+    &__header-num {
+      margin-top: 32px;
+      display: flex;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+    &__header-text {
+      margin-top: 0px;
+      display: flex;
+      white-space: nowrap;
+      margin-right: 145px;
+    }
+
+    &__main-text {
       margin-top: 32px;
       margin-right: 149px;
       white-space: nowrap;
     }
-    .main__footer-info-text {
+    &__info-text {
+      margin-top: 32px;
+      margin-right: 31px;
+      display: flex;
+      text-align: right;
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .main-footer {
+    display: flex;
+    border-top: $border-top-blue;
+    margin-top: 40px;
+    color: $header-text-color;
+    font-size: 14px;
+    line-height: 16px;
+    width: 1120px;
+    &__header {
+      margin-left: 31px;
+    }
+    &__header-num {
+      margin-top: 32px;
+      display: flex;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+    &__header-text {
+      margin-top: 0px;
+      display: flex;
+      white-space: nowrap;
+      margin-right: 145px;
+    }
+
+    &__main-text {
+      margin-top: 32px;
+      margin-right: 149px;
+      white-space: nowrap;
+    }
+    &__info-text {
       margin-top: 32px;
       margin-right: 31px;
       display: flex;

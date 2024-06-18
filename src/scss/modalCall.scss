@@ -9,25 +9,24 @@
     padding-top: 23px;
     left: 927px;
     top: 0px;
-    .modal__call-ramka {
+    &__frame {
       background-color: white;
     }
-    .header {
+    &__header {
       padding-top: 0;
       position: relative;
       font-family: $font-TT-Bolds;
       font-size: 24px;
       line-height: 32px;
       margin-bottom: 24px;
-
-      .modal__call--close {
+      &--close {
         display: flex;
         border: none;
         margin-bottom: 40px;
         left: 9px;
         width: 40px;
         height: 40px;
-        background-image: url('/src/img/close.svg');
+        background-image: url('../img/close.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-color: transparent;
@@ -39,7 +38,7 @@
       }
     }
 
-    .order__call {
+    &__order-call {
       margin-left: 16px;
       margin-top: 0px;
       &::before {
@@ -54,37 +53,37 @@
       }
     }
 
-    .main {
+    &__main {
       margin-left: 16px;
-      .main__input {
+    }
+    &__input {
+      font-size: 16px;
+      width: 288px;
+      height: 48px;
+      border: $border-slide-swiper;
+      border-radius: 4px 4px 4px 4px;
+      padding: 0px;
+      &::placeholder {
+        padding-left: 16px;
         font-size: 16px;
-        width: 288px;
-        height: 48px;
-        border: $border-slide-swiper;
-        border-radius: 4px 4px 4px 4px;
-        padding: 0px;
-        &::placeholder {
-          padding-left: 16px;
-          font-size: 16px;
-          color: $placeholder-color;
-        }
+        color: $placeholder-color;
       }
     }
 
-    .info {
+    &__info {
       width: 288px;
       height: 48px;
       font-family: $font-TT-Lakes-Medium;
       font-size: 14px;
       line-height: 16px;
       margin-bottom: 16px;
-      .text__info {
-        color: $placeholder-color;
-      }
-      .link__info {
-        text-decoration: none;
-        color: $link-color;
-      }
+    }
+    &__text-info {
+      color: $placeholder-color;
+    }
+    &__link-info {
+      text-decoration: none;
+      color: $link-color;
     }
 
     .swiper__slide-ico {
@@ -117,7 +116,7 @@
   .modal-call-bg--open {
     display: block;
   }
-  .modal-call--open {
+  .modal-call__header--open {
     display: flex;
     justify-content: flex-end;
     position: sticky;
@@ -135,21 +134,21 @@
     margin-top: 0px;
     margin-right: 32px;
 
-    .modal__call-ramka {
+    &__frame {
       border-left: $border-top-blue;
       padding-top: 40px;
       height: 100%;
       background-color: rgba(255, 255, 255, $opacity);
-      border-bottom-left-radius: 20%;
+
       height: 940px;
     }
-    .header {
+    &__header {
       position: relative;
       font-family: $font-TT-Bolds;
       font-size: 24px;
       line-height: 32px;
       margin-bottom: 24px;
-      .modal__call--close {
+      &--close {
         display: flex;
         position: absolute;
         border: none;
@@ -158,7 +157,7 @@
         padding: 0px;
         width: 40px;
         height: 40px;
-        background-image: url('/src/img/close.svg');
+        background-image: url('../img/close.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-color: transparent;
@@ -168,62 +167,67 @@
           transition-duration: 0.2s;
         }
       }
-      .order__call {
-        margin-left: 32px;
-        margin-top: 0px;
-        &::before {
-          content: '';
-          height: 40px;
-          border: $border-left-head;
-          border-radius: 40px 40px 40px 40px;
-          position: absolute;
-          top: -8px; /* был паддинг 8 px*/
-          left: -3.5px;
-        }
+    }
+
+    &__order-call {
+      margin-left: 32px;
+      margin-top: 0px;
+      &::before {
+        content: '';
+        height: 40px;
+        border: $border-left-head;
+        border-radius: 40px 40px 40px 40px;
+        position: absolute;
+        top: -8px; /* был паддинг 8 px*/
+        left: -3.5px;
       }
     }
-    .main {
+
+    &__main {
       margin-left: 32px;
-      .main__input {
+    }
+    &__input {
+      font-size: 16px;
+      width: 376px;
+      height: 48px;
+      border: $border-slide-swiper;
+      border-radius: 4px 4px 4px 4px;
+      &::placeholder {
+        padding-left: 16px;
         font-size: 16px;
-        width: 376px;
-        height: 48px;
-        border: $border-slide-swiper;
-        border-radius: 4px 4px 4px 4px;
-        &::placeholder {
-          padding-left: 16px;
-          font-size: 16px;
-          color: $placeholder-color;
-        }
+        color: $placeholder-color;
       }
-      .info {
-        width: 376px;
-        height: 48px;
-        font-family: $font-TT-Lakes-Medium;
-        font-size: 14px;
-        line-height: 16px;
-        margin-bottom: 16px;
-        .text__info {
-          color: $placeholder-color;
-        }
-        .link__info {
-          text-decoration: none;
-          color: $link-color;
-        }
-      }
-      .swiper__slide-ico {
-        display: flex;
-        width: 136px;
-        height: 32px;
-        margin-left: 246px;
-        background-image: url('../img/link.svg');
-        background-repeat: no-repeat;
-        background-position: 50%;
-        border: none;
-        color: transparent;
-      }
+    }
+
+    &__info {
+      width: 376px;
+      height: 48px;
+      font-family: $font-TT-Lakes-Medium;
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 16px;
+    }
+    &__text-info {
+      color: $placeholder-color;
+    }
+    &__link-info {
+      text-decoration: none;
+      color: $link-color;
+    }
+
+    .swiper__slide-ico {
+      display: flex;
+      width: 136px;
+      height: 32px;
+      margin-left: 246px;
+      background-image: url('../img/link.svg');
+      background-repeat: no-repeat;
+      background-position: 50%;
+      border: none;
+      color: transparent;
     }
   }
+
   .modal-call-bg {
     background: white;
     position: fixed;
@@ -238,7 +242,7 @@
   .modal-call-bg--open {
     display: block;
   }
-  .modal-call--open {
+  .modal-call__header--open {
     display: flex;
     justify-content: flex-end;
     position: sticky;

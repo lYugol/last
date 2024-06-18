@@ -1,5 +1,5 @@
 const burgerMenu = document.querySelector('.burger-menu')
-const openBurgerMenu = document.querySelector('.header__burger-menu')
+const openBurgerMenu = document.querySelector('.service__header-burger-menu')
 const closeBurgerMenu = document.querySelector('.header__left--close')
 const burgerMenuBg = document.querySelector('.burger-menu-bg')
 
