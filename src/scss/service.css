@@ -1,19 +1,19 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "ExtraBold";
-  src: url("../fonts/TT/TTLakes-ExtraBold.woff");
+  font-family: 'ExtraBold';
+  src: url('../fonts/TT/TTLakes-ExtraBold.woff');
 }
 @font-face {
-  font-family: "TT Lakes Regular";
-  src: url("../fonts/TT/TTLakes-Regular.woff");
+  font-family: 'TT Lakes Regular';
+  src: url('../fonts/TT/TTLakes-Regular.woff');
 }
 @font-face {
-  font-family: "TT Lakes Medium";
-  src: url("../fonts/TT/TTLakes-Medium.woff");
+  font-family: 'TT Lakes Medium';
+  src: url('../fonts/TT/TTLakes-Medium.woff');
 }
 @media only screen and (max-width: 767px) {
   body {
-    font-family: "ExtraBold", "TT Lakes Regular";
+    font-family: 'ExtraBold', 'TT Lakes Regular';
     background-color: white;
     margin: 0;
     padding: 0;
@@ -45,7 +45,7 @@
     margin-right: 16px;
   }
   .service .header__left-element > :first-child {
-    background-image: url("../Img/burger.svg");
+    background-image: url('../Img/burger.svg');
     display: flex;
     background-position: center;
     width: 40px;
@@ -68,7 +68,7 @@
     margin-left: 20px;
   }
   .service .header__right-element > :last-child {
-    background-image: url("../Img/checkstatus.svg");
+    background-image: url('../Img/checkstatus.svg');
     display: flex;
     background-position: center;
     width: 40px;
@@ -78,7 +78,7 @@
     margin-top: 24px;
   }
   .service .header__right-element :nth-last-child(2) {
-    background-image: url("../Img/repair.svg");
+    background-image: url('../Img/repair.svg');
     display: flex;
     background-position: center;
     width: 40px;
@@ -90,7 +90,7 @@
   }
   .service h1 {
     height: 40px;
-    font-family: "ExtraBold";
+    font-family: 'ExtraBold';
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -130,7 +130,7 @@
   }
   .service .main__button {
     display: flex;
-    font-family: "TT Lakes Regular";
+    font-family: 'TT Lakes Regular';
     align-items: center;
     justify-content: center;
     color: #7e7e82;
@@ -158,7 +158,7 @@
   .service .service.main__text {
     margin: 0px 16px 16px 16px;
     display: flex;
-    font-family: "TT Lakes Regular";
+    font-family: 'TT Lakes Regular';
     font-size: 14px;
   }
   .service .main__text:nth-of-type(2n + 1) ~ .main__text {
@@ -170,7 +170,7 @@
   }
   .service .main__skroll-text {
     margin-left: 8px;
-    font-family: "TT Lakes Medium";
+    font-family: 'TT Lakes Medium';
     color: black;
   }
 }
@@ -180,7 +180,7 @@
     background-color: white;
     margin: 0;
     padding: 0;
-    font-family: "ExtraBold", "TT Lakes Light";
+    font-family: 'ExtraBold', 'TT Lakes Light';
     font-size: 14px;
     line-height: 20px;
   }
@@ -202,7 +202,7 @@
     margin-left: 20px;
   }
   .service .header__left-element > :first-child {
-    background-image: url("../Img/burger.svg");
+    background-image: url('../Img/burger.svg');
     display: flex;
     background-position: center;
     width: 40px;
@@ -213,7 +213,7 @@
   }
   .service .header__button::after {
     position: absolute;
-    content: "";
+    content: '';
     height: 30px;
     border: 1px #eaeaea solid;
     border-radius: 1px;
@@ -227,7 +227,7 @@
     margin-bottom: 18px;
   }
   .service .header__right-element > :first-child {
-    background-image: url("../Img/call.svg");
+    background-image: url('../Img/call.svg');
     display: flex;
     background-position: center;
     width: 40px;
@@ -238,7 +238,7 @@
     margin-right: 16px;
   }
   .service .header__right-element :nth-child(2) {
-    background-image: url("../Img/chat.svg");
+    background-image: url('../Img/chat.svg');
     display: flex;
     background-position: center;
     width: 40px;
@@ -249,7 +249,7 @@
     margin-right: 16px;
   }
   .service .header__right-element :nth-child(3) {
-    background-image: url("../Img/profile.svg");
+    background-image: url('../Img/profile.svg');
     display: flex;
     background-position: center;
     width: 40px;
@@ -259,7 +259,7 @@
     margin-top: 24px;
   }
   .service .header__right-element > :last-child {
-    background-image: url("../Img/checkstatus.svg");
+    background-image: url('../Img/checkstatus.svg');
     display: flex;
     background-position: center;
     width: 40px;
@@ -269,7 +269,7 @@
     margin-top: 24px;
   }
   .service .header__right-element :nth-last-child(2) {
-    background-image: url("../Img/repair.svg");
+    background-image: url('../Img/repair.svg');
     display: flex;
     background-position: center;
     width: 40px;
@@ -281,7 +281,7 @@
   }
   .service h1 {
     height: 40px;
-    font-family: "ExtraBold";
+    font-family: 'ExtraBold';
     font-size: 28px;
     display: flex;
     justify-content: flex-start;
@@ -321,7 +321,7 @@
   }
   .service .main__button {
     display: flex;
-    font-family: "TT Lakes Regular";
+    font-family: 'TT Lakes Regular';
     align-items: center;
     justify-content: center;
     color: #7e7e82;
@@ -344,7 +344,7 @@
   .service .main__text {
     margin: 0px 16px 16px 24px;
     flex-direction: column;
-    font-family: "TT Lakes Regular";
+    font-family: 'TT Lakes Regular';
     font-size: 14px;
   }
   .service .main__text:nth-of-type(2n + 2) ~ .main__text {
@@ -369,7 +369,7 @@
   }
   .service .main__skroll-text {
     margin-left: 8px;
-    font-family: "TT Lakes Medium";
+    font-family: 'TT Lakes Medium';
     color: black;
   }
 }
@@ -378,7 +378,7 @@
   .service {
     max-width: 1121px;
     background-color: white;
-    font-family: "ExtraBold", "TT Lakes Regular";
+    font-family: 'ExtraBold', 'TT Lakes Regular';
     font-size: 14px;
     line-height: 20px;
     display: flex;
@@ -388,14 +388,14 @@
   .service .header__left-element {
     display: none;
   }
-  .service .header__right-element > :not(:nth-last-child(-n+2)) {
+  .service .header__right-element > :not(:nth-last-child(-n + 2)) {
     display: none;
   }
   .service .header__button-status {
     display: flex;
     margin-right: 208px;
     font-size: 16px;
-    font-family: "TT Lakes Medium";
+    font-family: 'TT Lakes Medium';
     white-space: nowrap;
     margin-left: 32px;
   }
@@ -411,7 +411,7 @@
     display: flex;
   }
   .service .header__right-element > :last-child {
-    background-image: url("../Img/checkstatus.svg");
+    background-image: url('../Img/checkstatus.svg');
     display: flex;
     background-position: center;
     width: 40px;
@@ -419,7 +419,7 @@
     padding: 20px;
   }
   .service .header__right-element :nth-last-child(2) {
-    background-image: url("../Img/repair.svg");
+    background-image: url('../Img/repair.svg');
     display: flex;
     background-position: center;
     width: 40px;
@@ -436,7 +436,7 @@
   .service h1 {
     height: 40px;
     display: flex;
-    font-family: "ExtraBold";
+    font-family: 'ExtraBold';
     font-size: 28px;
     justify-content: flex-start;
     align-items: center;
@@ -470,7 +470,7 @@
   }
   .service .main__button {
     display: block;
-    font-family: "TT Lakes Regular";
+    font-family: 'TT Lakes Regular';
     align-items: center;
     color: #7e7e82;
     border: none;
@@ -495,7 +495,7 @@
   }
   .service .main__text {
     margin: 16px 16px 16px 34px;
-    font-family: "TT Lakes Regular";
+    font-family: 'TT Lakes Regular';
     font-size: 14px;
     color: black;
   }
@@ -510,7 +510,7 @@
   }
   .service .main__skroll-text {
     margin-left: 8px;
-    font-family: "TT Lakes Medium";
+    font-family: 'TT Lakes Medium';
     color: black;
   }
-}/*# sourceMappingURL=service.css.map */
+} /*# sourceMappingURL=service.css.map */
