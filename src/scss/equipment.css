@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'TT Lakes Regular';
   src: url('../fonts/TT/TTLakes-Regular.ttf');
@@ -51,7 +52,6 @@
     display: flex;
     margin-left: 16px;
   }
-
   .swiper-slide {
     width: 240px !important;
     height: 72px !important;
@@ -94,21 +94,17 @@
     top: 88px;
   }
   /* закрыл*/
-
   .sample-slider .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
   }
-
   .swiper-pagination-bullet {
     background-color: #ccc;
     opacity: 1 !important;
   }
-
   .custom-pagination .swiper-pagination-bullet {
     background-color: #dddddd;
   }
-
   .custom-pagination .swiper-pagination-bullet-active {
     background-color: #b5b6bc;
   }
@@ -325,4 +321,4 @@
   .swiper-slide:nth-of-type(n + 9):nth-of-type(-n + 11).visible {
     display: block;
   }
-}
+} /*# sourceMappingURL=equipment.css.map */

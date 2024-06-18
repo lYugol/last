@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Extra Bold';
-  src: url('../fonts/TT/TTLakes-ExtraBold.woff');
+  font-family: "Extra Bold";
+  src: url("../fonts/TT/TTLakes-ExtraBold.woff");
 }
 @font-face {
-  font-family: 'TT Lakes Medium';
-  src: url('../fonts/TT/TTLakes-Medium.woff');
+  font-family: "TT Lakes Medium";
+  src: url("../fonts/TT/TTLakes-Medium.woff");
 }
 @media only screen and (max-width: 360px) {
   .burger-menu-bg {
@@ -21,18 +21,17 @@
   .burger-menu-bg--open {
     display: block;
   }
-
   .burger-menu {
     display: none;
     z-index: 98;
     position: fixed;
     top: 0;
     left: 0;
-    font-family: 'TT Lakes Medium', 'Extra Bold';
+    font-family: "TT Lakes Medium", "Extra Bold";
     color: black;
     width: 320px;
     height: 100%;
-    background: rgba(255, 255, 255, 1);
+    background: rgb(255, 255, 255);
     padding: 0;
     margin: 0;
     box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2);
@@ -72,17 +71,16 @@
   }
   .burger-menu .header__left-button {
     margin-left: 16px;
-    background-image: url('../img/x.svg');
+    background-image: url("../img/x.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
   .burger-menu .header__right-button {
     margin-right: 24px;
-    background-image: url('../img/search.svg');
+    background-image: url("../img/search.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
-
   .burger-menu .main {
     display: flex;
     flex-direction: column;
@@ -93,7 +91,7 @@
     margin-bottom: 32px;
     border: none;
     background-color: white;
-    font-family: 'TT Lakes Medium';
+    font-family: "TT Lakes Medium";
     font-size: 16px;
     line-height: 24px;
   }
@@ -102,7 +100,6 @@
     margin: 0px;
     padding: 0px;
   }
-
   .burger-menu .footer {
     display: flex;
     flex-direction: column;
@@ -113,43 +110,39 @@
   }
   .burger-menu .footer__button {
     display: flex;
-
     margin-right: 16px;
   }
-
   .burger-menu .footer__button:first-child,
   .burger-menu .p__text-email,
   .burger-menu .p__text-number {
     margin-left: 16px;
   }
-
   .burger-menu .footer__button:first-child {
     margin-right: 16px;
-    background-image: url('../img/t.svg');
+    background-image: url("../img/t.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
   .burger-menu .footer__button:nth-child(2) {
     margin-right: 16px;
-    background-image: url('../img/chat.svg');
+    background-image: url("../img/chat.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
   .burger-menu .footer__button:nth-child(3) {
-    background-image: url('../img/k.svg');
+    background-image: url("../img/k.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
-
   .burger-menu .p__text-email {
-    font-family: 'TT Lakes Medium';
+    font-family: "TT Lakes Medium";
     margin-bottom: -12px;
   }
   .burger-menu .p__text-number {
     margin-bottom: 0;
     font-size: 24px;
     line-height: 32px;
-    font-family: 'Extra Bold';
+    font-family: "Extra Bold";
     white-space: nowrap;
     padding-right: 200px;
   }
@@ -165,16 +158,15 @@
   }
   .burger-menu .footer__button-language:first-child {
     margin-left: 16px;
-    color: rgba(126, 126, 130, 1);
+    color: rgb(126, 126, 130);
   }
-
   .burger-menu .button:hover {
     filter: invert(100%);
     transition-duration: 0.2s;
   }
   .burger-menu .main__navigation-a:hover {
     border-left: #41f6d7 solid 4px;
-    color: rgba(126, 126, 130, 1);
+    color: rgb(126, 126, 130);
   }
   .burger-menu .footer__button:first-child:hover {
     transform: rotate(180deg);
@@ -186,7 +178,6 @@
     opacity: 1;
   }
 }
-
 @media only screen and (min-width: 360px) and (max-width: 768px) {
   .burger-menu-bg {
     background: white;
@@ -208,15 +199,14 @@
     position: fixed;
     top: 0;
     left: 0;
-    font-family: 'TT Lakes Medium', 'Extra Bold';
+    font-family: "TT Lakes Medium", "Extra Bold";
     color: black;
     width: 360px;
     height: 100%;
     background: white;
     padding: 0;
     margin: 0;
-    box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2),
-      -2px 0 4px 0 rgba(69, 79, 126, 0.02);
+    box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2), -2px 0 4px 0 rgba(69, 79, 126, 0.02);
   }
   .burger-menu--open {
     display: block;
@@ -250,17 +240,16 @@
   }
   .burger-menu .header__left-button {
     margin-right: 17px;
-    background-image: url('../img/x.svg');
+    background-image: url("../img/x.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
   .burger-menu .header__right-button {
     margin-right: 24px;
-    background-image: url('../img/search.svg');
+    background-image: url("../img/search.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
-
   .burger-menu .main {
     display: flex;
     flex-direction: column;
@@ -271,7 +260,7 @@
     margin-bottom: 32px;
     border: none;
     background-color: white;
-    font-family: 'TT Lakes Medium';
+    font-family: "TT Lakes Medium";
     font-size: 16px;
     line-height: 24px;
   }
@@ -280,7 +269,6 @@
     margin: 0px;
     padding: 0px;
   }
-
   .burger-menu .footer {
     display: flex;
     flex-direction: column;
@@ -291,43 +279,39 @@
   }
   .burger-menu .footer__button {
     display: flex;
-
     margin-right: 16px;
   }
-
   .burger-menu .footer__button:first-child,
   .burger-menu .p__text-email,
   .burger-menu .p__text-number {
     margin-left: 24px;
   }
-
   .burger-menu .footer__button:first-child {
     margin-right: 16px;
-    background-image: url('../img/t.svg');
+    background-image: url("../img/t.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
   .burger-menu .footer__button:nth-child(2) {
     margin-right: 16px;
-    background-image: url('../img/chat.svg');
+    background-image: url("../img/chat.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
   .burger-menu .footer__button:nth-child(3) {
-    background-image: url('../img/k.svg');
+    background-image: url("../img/k.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
-
   .burger-menu .p__text-email {
-    font-family: 'TT Lakes Medium';
+    font-family: "TT Lakes Medium";
     margin-bottom: -12px;
   }
   .burger-menu .p__text-number {
     margin-bottom: 0;
     font-size: 24px;
     line-height: 32px;
-    font-family: 'Extra Bold';
+    font-family: "Extra Bold";
     white-space: nowrap;
     padding-right: 350px;
   }
@@ -343,16 +327,15 @@
   }
   .burger-menu .footer__button-language:first-child {
     margin-left: 24px;
-    color: rgba(126, 126, 130, 1);
+    color: rgb(126, 126, 130);
   }
-
   .burger-menu .button:hover {
     filter: invert(100%);
     transition-duration: 0.2s;
   }
   .burger-menu .main__navigation-a:hover {
     border-left: #41f6d7 solid 4px;
-    color: rgba(126, 126, 130, 1);
+    color: rgb(126, 126, 130);
   }
   .burger-menu .footer__button:first-child:hover {
     transform: rotate(180deg);
@@ -365,7 +348,6 @@
     background-color: transparent;
   }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
   .burger-menu-bg {
     background: white;
@@ -381,21 +363,19 @@
   .burger-menu-bg--open {
     display: block;
   }
-
   .burger-menu {
     display: none;
     z-index: 99;
     position: fixed;
     top: 0;
     left: 0;
-    font-family: 'TT Lakes Medium', 'Extra Bold';
+    font-family: "TT Lakes Medium", "Extra Bold";
     color: black;
     width: 320px;
     background-color: white;
     padding: 0;
     margin: 0;
-    box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2),
-      -2px 0 4px 0 rgba(69, 79, 126, 0.02);
+    box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2), -2px 0 4px 0 rgba(69, 79, 126, 0.02);
   }
   .burger-menu--open {
     display: block;
@@ -429,17 +409,16 @@
   }
   .burger-menu .header__left-button {
     margin-right: 17px;
-    background-image: url('../img/x.svg');
+    background-image: url("../img/x.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
   .burger-menu .header__right-button {
     margin-right: 24px;
-    background-image: url('../img/search.svg');
+    background-image: url("../img/search.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
-
   .burger-menu .main {
     display: flex;
     flex-direction: column;
@@ -450,7 +429,7 @@
     margin-bottom: 32px;
     border: none;
     background-color: white;
-    font-family: 'TT Lakes Medium';
+    font-family: "TT Lakes Medium";
     font-size: 16px;
     line-height: 24px;
   }
@@ -459,7 +438,6 @@
     margin: 0px;
     padding: 0px;
   }
-
   .burger-menu .footer {
     display: flex;
     flex-direction: column;
@@ -473,7 +451,6 @@
     margin-top: 238px;
     margin-right: 16px;
   }
-
   .burger-menu .footer__button:first-child,
   .burger-menu .p__text-email,
   .burger-menu .p__text-number {
@@ -484,30 +461,30 @@
   }
   .burger-menu .footer__button:first-child {
     margin-right: 16px;
-    background-image: url('../img/t.svg');
+    background-image: url("../img/t.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
   .burger-menu .footer__button:nth-child(2) {
     margin-right: 16px;
-    background-image: url('../img/chat.svg');
+    background-image: url("../img/chat.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
   .burger-menu .footer__button:nth-child(3) {
-    background-image: url('../img/k.svg');
+    background-image: url("../img/k.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
   .burger-menu .p__text-email {
-    font-family: 'TT Lakes Medium';
+    font-family: "TT Lakes Medium";
     margin-bottom: -12px;
   }
   .burger-menu .p__text-number {
     margin-bottom: 40px;
     font-size: 24px;
     line-height: 32px;
-    font-family: 'Extra Bold';
+    font-family: "Extra Bold";
   }
   .burger-menu .footer__button-language {
     margin-left: 0px;
@@ -521,16 +498,15 @@
   }
   .burger-menu .footer__button-language:first-child {
     margin-left: 24px;
-    color: rgba(126, 126, 130, 1);
+    color: rgb(126, 126, 130);
   }
-
   .burger-menu .button:hover {
     filter: invert(100%);
     transition-duration: 0.2s;
   }
   .burger-menu .main__navigation-a:hover {
     border-left: #41f6d7 solid 4px;
-    color: rgba(126, 126, 130, 1);
+    color: rgb(126, 126, 130);
   }
   .burger-menu .footer__button:first-child:hover {
     transform: rotate(180deg);
@@ -550,15 +526,13 @@
     padding-top: 10px;
     left: 0px;
     z-index: 2;
-    font-family: 'TT Lakes Medium', 'Extra Bold';
+    font-family: "TT Lakes Medium", "Extra Bold";
     color: black;
     width: 276px;
     background-color: white;
     position: fixed;
-    box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2),
-      -2px 0 4px 0 rgba(69, 79, 126, 0.02);
+    box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2), -2px 0 4px 0 rgba(69, 79, 126, 0.02);
   }
-
   .service-software {
     display: flex;
     flex-direction: column;
@@ -569,7 +543,6 @@
     padding-left: auto;
     overflow: hidden;
   }
-
   .burger-menu .header {
     display: flex;
     justify-content: space-between;
@@ -603,11 +576,10 @@
   }
   .burger-menu .header__right-button {
     margin-right: 24px;
-    background-image: url('../img/search.svg');
+    background-image: url("../img/search.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
-
   .burger-menu .main {
     display: flex;
     flex-direction: column;
@@ -618,7 +590,7 @@
     margin-bottom: 32px;
     border: none;
     background-color: white;
-    font-family: 'TT Lakes Medium';
+    font-family: "TT Lakes Medium";
     font-size: 16px;
     line-height: 24px;
   }
@@ -627,7 +599,6 @@
     margin: 0px;
     padding: 0px;
   }
-
   .burger-menu .footer {
     display: flex;
     flex-direction: column;
@@ -641,39 +612,37 @@
     margin-top: 238px;
     margin-right: 16px;
   }
-
   .burger-menu .footer__button:first-child,
   .burger-menu .p__text-email,
   .burger-menu .p__text-number {
     margin-left: 19px;
   }
-
   .burger-menu .footer__button:first-child {
     margin-right: 16px;
-    background-image: url('../img/t.svg');
+    background-image: url("../img/t.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
   .burger-menu .footer__button:nth-child(2) {
     margin-right: 16px;
-    background-image: url('../img/chat.svg');
+    background-image: url("../img/chat.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
   .burger-menu .footer__button:nth-child(3) {
-    background-image: url('../img/k.svg');
+    background-image: url("../img/k.svg");
     background-repeat: no-repeat;
     background-position: 50%;
   }
   .burger-menu .p__text-email {
-    font-family: 'TT Lakes Medium';
+    font-family: "TT Lakes Medium";
     margin-bottom: -12px;
   }
   .burger-menu .p__text-number {
     margin-bottom: 40px;
     font-size: 24px;
     line-height: 32px;
-    font-family: 'Extra Bold';
+    font-family: "Extra Bold";
   }
   .burger-menu .footer__button-language {
     padding: 0;
@@ -685,16 +654,15 @@
   }
   .burger-menu .footer__button-language:first-child {
     margin-left: 21px;
-    color: rgba(126, 126, 130, 1);
+    color: rgb(126, 126, 130);
   }
-
   .burger-menu .button:hover {
     filter: invert(100%);
     transition-duration: 0.2s;
   }
   .burger-menu .main__navigation-a:hover {
     border-left: #41f6d7 solid 4px;
-    color: rgba(126, 126, 130, 1);
+    color: rgb(126, 126, 130);
   }
   .burger-menu .footer__button:first-child:hover {
     transform: rotate(180deg);
@@ -705,4 +673,4 @@
     transition-duration: 0.5s;
     opacity: 1;
   }
-}
+}/*# sourceMappingURL=burgerMenu.css.map */

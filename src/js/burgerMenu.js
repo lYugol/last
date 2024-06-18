@@ -1,5 +1,5 @@
 const burgerMenu = document.querySelector('.burger-menu')
-const openBurgerMenu = document.querySelector('.header__burger-menu')
+const openBurgerMenu = document.querySelector('.service__header-burger-menu')
 const closeBurgerMenu = document.querySelector('.header__left--close')
 const burgerMenuBg = document.querySelector('.burger-menu-bg')
 
@@ -19,4 +19,3 @@ burgerMenuBg.addEventListener('click', function (evt) {
     burgerMenuBg.classList.remove('burger-menu-bg--open')
   }
 })
-console.log('отработал_bg')

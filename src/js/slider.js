@@ -44,4 +44,3 @@ function show() {
 }
 
 show()
-console.log('отработал_slider')

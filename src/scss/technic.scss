@@ -13,19 +13,20 @@
 
 @media only screen and (max-width: 767px) {
   .technic {
-    .header {
+    &__header {
       margin-top: 48px;
       display: flex;
       margin-bottom: 16px;
       border-top: $border-top-blue;
-      .header__text {
-        color: $header-text-color;
-        margin: 16px;
-        width: 288px;
-        height: 48px;
-      }
     }
-    .main {
+    &__header-text {
+      color: $header-text-color;
+      margin: 16px;
+      width: 288px;
+      height: 48px;
+    }
+
+    &__main {
       position: relative;
       display: flex;
       margin-left: 16px;
@@ -64,19 +65,19 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 1120px) {
   .technic {
-    .header {
+    &__header {
       display: flex;
       min-width: 768px;
       height: 56px;
       margin-top: 32px;
       border-top: $border-top-blue;
-
-      .header__text {
-        margin-left: 24px;
-        color: $header-text-color;
-      }
     }
-    .main {
+    &__header-text {
+      margin-left: 24px;
+      color: $header-text-color;
+    }
+
+    &__main {
       display: flex;
       .swiper-slide {
         .swiper__slide-link {
@@ -125,16 +126,16 @@
 
 @media only screen and (min-width: 1121px) {
   .technic {
-    .header {
+    &__header {
       margin-top: 51px;
       border-top: $border-top-blue;
-
-      .header__text {
-        margin-left: 32px;
-        color: $header-text-color;
-      }
     }
-    .main {
+    &__header-text {
+      margin-left: 32px;
+      color: $header-text-color;
+    }
+
+    &__main {
       display: flex;
       .swiper-slide {
         .swiper__slide-link {
@@ -159,7 +160,6 @@
       margin-top: 8px;
     }
   }
-
   /* Styles for when the slider is disabled */
   .sample-slider.-non-slider {
     display: flex;
