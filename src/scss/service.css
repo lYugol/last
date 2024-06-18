@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 @font-face {
   font-family: "ExtraBold";
@@ -14,6 +15,24 @@
 @media only screen and (max-width: 767px) {
   body {
     font-family: "ExtraBold", "TT Lakes Regular";
+=======
+@font-face {
+  font-family: 'ExtraBold';
+  src: url('../fonts/TT/TTLakes-ExtraBold.woff');
+}
+@font-face {
+  font-family: 'TT Lakes Regular';
+  src: url('../fonts/TT/TTLakes-Regular.woff');
+}
+@font-face {
+  font-family: 'TT Lakes Medium';
+  src: url('../fonts/TT/TTLakes-Medium.woff');
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-family: 'ExtraBold', 'TT Lakes Regular';
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     background-color: white;
     margin: 0;
     padding: 0;
@@ -33,6 +52,10 @@
     margin-right: 16px;
     margin-bottom: 24px;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .service .header__right-element > :first-child,
   .service .header__button:nth-of-type(2),
   .service .header__button:nth-of-type(3) {
@@ -45,7 +68,11 @@
     margin-right: 16px;
   }
   .service .header__left-element > :first-child {
+<<<<<<< HEAD
     background-image: url("../Img/burger.svg");
+=======
+    background-image: url('../Img/burger.svg');
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     display: flex;
     background-position: center;
     width: 40px;
@@ -68,7 +95,11 @@
     margin-left: 20px;
   }
   .service .header__right-element > :last-child {
+<<<<<<< HEAD
     background-image: url("../Img/checkstatus.svg");
+=======
+    background-image: url('../Img/checkstatus.svg');
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     display: flex;
     background-position: center;
     width: 40px;
@@ -78,7 +109,11 @@
     margin-top: 24px;
   }
   .service .header__right-element :nth-last-child(2) {
+<<<<<<< HEAD
     background-image: url("../Img/repair.svg");
+=======
+    background-image: url('../Img/repair.svg');
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     display: flex;
     background-position: center;
     width: 40px;
@@ -90,7 +125,11 @@
   }
   .service h1 {
     height: 40px;
+<<<<<<< HEAD
     font-family: "ExtraBold";
+=======
+    font-family: 'ExtraBold';
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -98,7 +137,11 @@
     margin-bottom: 24px;
     margin-right: 16px;
     padding-left: 12px;
+<<<<<<< HEAD
     border-left: rgb(65, 246, 215) solid 4px;
+=======
+    border-left: rgba(65, 246, 215, 1) solid 4px;
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     font-size: 28px;
   }
   .service .main__buttons {
@@ -123,6 +166,10 @@
     border: white;
     background-color: white;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .service .main__buttons :first-child {
     border: 2px solid #b8ffec;
     border-radius: 10px;
@@ -130,7 +177,11 @@
   }
   .service .main__button {
     display: flex;
+<<<<<<< HEAD
     font-family: "TT Lakes Regular";
+=======
+    font-family: 'TT Lakes Regular';
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     align-items: center;
     justify-content: center;
     color: #7e7e82;
@@ -141,6 +192,10 @@
     padding: 8px 17px;
     flex-shrink: 0;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .service .main__skroll > :first-child {
     display: flex;
     vertical-align: middle;
@@ -158,7 +213,11 @@
   .service .service.main__text {
     margin: 0px 16px 16px 16px;
     display: flex;
+<<<<<<< HEAD
     font-family: "TT Lakes Regular";
+=======
+    font-family: 'TT Lakes Regular';
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     font-size: 14px;
   }
   .service .main__text:nth-of-type(2n + 1) ~ .main__text {
@@ -170,17 +229,29 @@
   }
   .service .main__skroll-text {
     margin-left: 8px;
+<<<<<<< HEAD
     font-family: "TT Lakes Medium";
     color: black;
   }
 }
+=======
+    font-family: 'TT Lakes Medium';
+    color: black;
+  }
+}
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
 /* Стили для планшетов */
 @media only screen and (min-width: 768px) and (max-width: 1439px) {
   body {
     background-color: white;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     font-family: "ExtraBold", "TT Lakes Light";
+=======
+    font-family: 'ExtraBold', 'TT Lakes Light';
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     font-size: 14px;
     line-height: 20px;
   }
@@ -191,6 +262,10 @@
     justify-content: space-between;
     border-bottom: rgba(65, 246, 215, 0.155) solid 1px;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .service .header__right-element {
     display: flex;
     justify-content: flex-end;
@@ -202,7 +277,11 @@
     margin-left: 20px;
   }
   .service .header__left-element > :first-child {
+<<<<<<< HEAD
     background-image: url("../Img/burger.svg");
+=======
+    background-image: url('../Img/burger.svg');
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     display: flex;
     background-position: center;
     width: 40px;
@@ -213,7 +292,11 @@
   }
   .service .header__button::after {
     position: absolute;
+<<<<<<< HEAD
     content: "";
+=======
+    content: '';
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     height: 30px;
     border: 1px #eaeaea solid;
     border-radius: 1px;
@@ -227,7 +310,11 @@
     margin-bottom: 18px;
   }
   .service .header__right-element > :first-child {
+<<<<<<< HEAD
     background-image: url("../Img/call.svg");
+=======
+    background-image: url('../Img/call.svg');
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     display: flex;
     background-position: center;
     width: 40px;
@@ -238,7 +325,11 @@
     margin-right: 16px;
   }
   .service .header__right-element :nth-child(2) {
+<<<<<<< HEAD
     background-image: url("../Img/chat.svg");
+=======
+    background-image: url('../Img/chat.svg');
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     display: flex;
     background-position: center;
     width: 40px;
@@ -249,7 +340,11 @@
     margin-right: 16px;
   }
   .service .header__right-element :nth-child(3) {
+<<<<<<< HEAD
     background-image: url("../Img/profile.svg");
+=======
+    background-image: url('../Img/profile.svg');
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     display: flex;
     background-position: center;
     width: 40px;
@@ -259,7 +354,11 @@
     margin-top: 24px;
   }
   .service .header__right-element > :last-child {
+<<<<<<< HEAD
     background-image: url("../Img/checkstatus.svg");
+=======
+    background-image: url('../Img/checkstatus.svg');
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     display: flex;
     background-position: center;
     width: 40px;
@@ -269,7 +368,11 @@
     margin-top: 24px;
   }
   .service .header__right-element :nth-last-child(2) {
+<<<<<<< HEAD
     background-image: url("../Img/repair.svg");
+=======
+    background-image: url('../Img/repair.svg');
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     display: flex;
     background-position: center;
     width: 40px;
@@ -281,7 +384,11 @@
   }
   .service h1 {
     height: 40px;
+<<<<<<< HEAD
     font-family: "ExtraBold";
+=======
+    font-family: 'ExtraBold';
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     font-size: 28px;
     display: flex;
     justify-content: flex-start;
@@ -290,7 +397,11 @@
     margin-bottom: 32px;
     margin-right: 16px;
     padding-left: 20px;
+<<<<<<< HEAD
     border-left: rgb(65, 246, 215) solid 4px;
+=======
+    border-left: rgba(65, 246, 215, 1) solid 4px;
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   }
   .service .main__buttons {
     display: flex;
@@ -298,6 +409,10 @@
     flex-wrap: nowrap;
     overflow-x: hidden;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .service button:focus-visible {
     border: 2px solid #b8ffec;
     outline: white;
@@ -310,6 +425,10 @@
     margin-top: 32px;
     margin-bottom: 32px;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .service .header__button {
     border: none;
     background-color: white;
@@ -319,9 +438,16 @@
     border-radius: 10px;
     padding: 8px 22px;
   }
+<<<<<<< HEAD
   .service .main__button {
     display: flex;
     font-family: "TT Lakes Regular";
+=======
+
+  .service .main__button {
+    display: flex;
+    font-family: 'TT Lakes Regular';
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     align-items: center;
     justify-content: center;
     color: #7e7e82;
@@ -332,6 +458,10 @@
     padding: 8px 17px;
     flex-shrink: 0;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .service .main__skroll > :first-child {
     display: flex;
     vertical-align: middle;
@@ -341,12 +471,23 @@
     display: flex;
     flex-direction: row;
   }
+<<<<<<< HEAD
   .service .main__text {
     margin: 0px 16px 16px 24px;
     flex-direction: column;
     font-family: "TT Lakes Regular";
     font-size: 14px;
   }
+=======
+
+  .service .main__text {
+    margin: 0px 16px 16px 24px;
+    flex-direction: column;
+    font-family: 'TT Lakes Regular';
+    font-size: 14px;
+  }
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .service .main__text:nth-of-type(2n + 2) ~ .main__text {
     display: none;
   }
@@ -369,33 +510,61 @@
   }
   .service .main__skroll-text {
     margin-left: 8px;
+<<<<<<< HEAD
     font-family: "TT Lakes Medium";
     color: black;
   }
 }
+=======
+    font-family: 'TT Lakes Medium';
+    color: black;
+  }
+}
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
 /* Стили для компьютеров */
 @media only screen and (min-width: 1440px) {
   .service {
     max-width: 1121px;
     background-color: white;
+<<<<<<< HEAD
     font-family: "ExtraBold", "TT Lakes Regular";
+=======
+
+    font-family: 'ExtraBold', 'TT Lakes Regular';
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     font-size: 14px;
     line-height: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
+<<<<<<< HEAD
   .service .header__left-element {
     display: none;
   }
   .service .header__right-element > :not(:nth-last-child(-n+2)) {
     display: none;
   }
+=======
+
+  .service .header__left-element {
+    display: none;
+  }
+  .service .header__right-element > :not(:nth-last-child(-n + 2)) {
+    display: none;
+  }
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .service .header__button-status {
     display: flex;
     margin-right: 208px;
     font-size: 16px;
+<<<<<<< HEAD
     font-family: "TT Lakes Medium";
+=======
+    font-family: 'TT Lakes Medium';
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     white-space: nowrap;
     margin-left: 32px;
   }
@@ -411,7 +580,11 @@
     display: flex;
   }
   .service .header__right-element > :last-child {
+<<<<<<< HEAD
     background-image: url("../Img/checkstatus.svg");
+=======
+    background-image: url('../Img/checkstatus.svg');
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     display: flex;
     background-position: center;
     width: 40px;
@@ -419,7 +592,11 @@
     padding: 20px;
   }
   .service .header__right-element :nth-last-child(2) {
+<<<<<<< HEAD
     background-image: url("../Img/repair.svg");
+=======
+    background-image: url('../Img/repair.svg');
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     display: flex;
     background-position: center;
     width: 40px;
@@ -433,17 +610,29 @@
     align-items: center;
     margin-top: 42px;
   }
+<<<<<<< HEAD
   .service h1 {
     height: 40px;
     display: flex;
     font-family: "ExtraBold";
+=======
+
+  .service h1 {
+    height: 40px;
+    display: flex;
+    font-family: 'ExtraBold';
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     font-size: 28px;
     justify-content: flex-start;
     align-items: center;
     margin-top: -42px;
     padding-left: 30px;
     margin-bottom: 8px;
+<<<<<<< HEAD
     border-left: rgb(65, 246, 215) solid 4px;
+=======
+    border-left: rgba(65, 246, 215, 1) solid 4px;
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   }
   .service .main__buttons {
     display: flex;
@@ -451,6 +640,10 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .service .main__button-nav {
     display: flex;
     justify-content: space-evenly;
@@ -458,6 +651,10 @@
     margin-right: 25px;
     margin-top: 8px;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .service button:focus-visible {
     border: 2px solid #b8ffec;
     outline: white;
@@ -470,7 +667,11 @@
   }
   .service .main__button {
     display: block;
+<<<<<<< HEAD
     font-family: "TT Lakes Regular";
+=======
+    font-family: 'TT Lakes Regular';
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     align-items: center;
     color: #7e7e82;
     border: none;
@@ -483,6 +684,10 @@
     display: flex;
     vertical-align: middle;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .service .main__skroll {
     display: block;
     margin-top: 10px;
@@ -493,9 +698,16 @@
     display: flex;
     flex-direction: row;
   }
+<<<<<<< HEAD
   .service .main__text {
     margin: 16px 16px 16px 34px;
     font-family: "TT Lakes Regular";
+=======
+
+  .service .main__text {
+    margin: 16px 16px 16px 34px;
+    font-family: 'TT Lakes Regular';
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     font-size: 14px;
     color: black;
   }
@@ -510,7 +722,14 @@
   }
   .service .main__skroll-text {
     margin-left: 8px;
+<<<<<<< HEAD
     font-family: "TT Lakes Medium";
     color: black;
   }
 }/*# sourceMappingURL=service.css.map */
+=======
+    font-family: 'TT Lakes Medium';
+    color: black;
+  }
+}
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54

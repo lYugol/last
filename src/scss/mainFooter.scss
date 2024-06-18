@@ -12,13 +12,18 @@
     line-height: 16px;
     margin-right: 4px;
     margin-left: 4px;
+<<<<<<< HEAD
     &__header-num {
+=======
+    .main__footer-header-num {
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
       display: flex;
       text-align: center;
       justify-content: center;
       margin-top: 16px;
       margin-bottom: 0px;
     }
+<<<<<<< HEAD
     &__header-text {
       margin-top: 0px;
     }
@@ -26,6 +31,15 @@
       margin: 0px;
     }
     &__info-text {
+=======
+    .main__footer-header-text {
+      margin-top: 0px;
+    }
+    .main__footer-main-text {
+      margin: 0px;
+    }
+    .main__footer-info-text {
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
       text-align: center;
     }
   }
@@ -39,6 +53,7 @@
     color: $header-text-color;
     font-size: 14px;
     line-height: 16px;
+<<<<<<< HEAD
     &__header {
       margin-left: 24px;
     }
@@ -56,11 +71,33 @@
     }
 
     &__main-text {
+=======
+    .header {
+      margin-left: 24px;
+      .main__footer-header-num {
+        margin-top: 32px;
+        display: flex;
+        text-align: center;
+        margin-bottom: 0px;
+      }
+      .main__footer-header-text {
+        margin-top: 0px;
+        display: flex;
+        white-space: nowrap;
+        margin-right: 35px;
+      }
+    }
+    .main__footer-main-text {
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
       margin-top: 32px;
       margin-right: 40px;
       white-space: nowrap;
     }
+<<<<<<< HEAD
     &__info-text {
+=======
+    .main__footer-info-text {
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
       margin-top: 32px;
       margin-right: 24px;
       display: flex;
@@ -68,14 +105,21 @@
     }
   }
 }
+<<<<<<< HEAD
 @media only screen and (min-width: 768px) and (max-width: 1439px) {
   .main-footer {
+=======
+@media only screen and (min-width: 1121px) {
+  .main-footer {
+    margin: auto;
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     display: flex;
     border-top: $border-top-blue;
     margin-top: 40px;
     color: $header-text-color;
     font-size: 14px;
     line-height: 16px;
+<<<<<<< HEAD
 
     &__header {
       margin-left: 31px;
@@ -94,10 +138,29 @@
     }
 
     &__main-text {
+=======
+    .header {
+      margin-left: 31px;
+      .main__footer-header-num {
+        margin-top: 32px;
+        display: flex;
+        text-align: center;
+        margin-bottom: 0px;
+      }
+      .main__footer-header-text {
+        margin-top: 0px;
+        display: flex;
+        white-space: nowrap;
+        margin-right: 145px;
+      }
+    }
+    .main__footer-main-text {
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
       margin-top: 32px;
       margin-right: 149px;
       white-space: nowrap;
     }
+<<<<<<< HEAD
     &__info-text {
       margin-top: 32px;
       margin-right: 31px;
@@ -138,6 +201,9 @@
       white-space: nowrap;
     }
     &__info-text {
+=======
+    .main__footer-info-text {
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
       margin-top: 32px;
       margin-right: 31px;
       display: flex;

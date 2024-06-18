@@ -44,3 +44,7 @@ function show() {
 }
 
 show()
+<<<<<<< HEAD
+=======
+console.log('отработал_slider')
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54

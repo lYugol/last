@@ -13,11 +13,16 @@
 
 @media only screen and (max-width: 767px) {
   .technic {
+<<<<<<< HEAD
     &__header {
+=======
+    .header {
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
       margin-top: 48px;
       display: flex;
       margin-bottom: 16px;
       border-top: $border-top-blue;
+<<<<<<< HEAD
     }
     &__header-text {
       color: $header-text-color;
@@ -27,6 +32,16 @@
     }
 
     &__main {
+=======
+      .header__text {
+        color: $header-text-color;
+        margin: 16px;
+        width: 288px;
+        height: 48px;
+      }
+    }
+    .main {
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
       position: relative;
       display: flex;
       margin-left: 16px;
@@ -65,12 +80,17 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 1120px) {
   .technic {
+<<<<<<< HEAD
     &__header {
+=======
+    .header {
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
       display: flex;
       min-width: 768px;
       height: 56px;
       margin-top: 32px;
       border-top: $border-top-blue;
+<<<<<<< HEAD
     }
     &__header-text {
       margin-left: 24px;
@@ -78,6 +98,15 @@
     }
 
     &__main {
+=======
+
+      .header__text {
+        margin-left: 24px;
+        color: $header-text-color;
+      }
+    }
+    .main {
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
       display: flex;
       .swiper-slide {
         .swiper__slide-link {
@@ -126,6 +155,7 @@
 
 @media only screen and (min-width: 1121px) {
   .technic {
+<<<<<<< HEAD
     &__header {
       margin-top: 51px;
       border-top: $border-top-blue;
@@ -136,6 +166,18 @@
     }
 
     &__main {
+=======
+    .header {
+      margin-top: 51px;
+      border-top: $border-top-blue;
+
+      .header__text {
+        margin-left: 32px;
+        color: $header-text-color;
+      }
+    }
+    .main {
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
       display: flex;
       .swiper-slide {
         .swiper__slide-link {
@@ -160,6 +202,10 @@
       margin-top: 8px;
     }
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   /* Styles for when the slider is disabled */
   .sample-slider.-non-slider {
     display: flex;

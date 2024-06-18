@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
@@ -6,6 +7,18 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 module.exports = {
   // Входной файл
   entry: ['./src/js/index.js'],
+=======
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
+module.exports = {
+  // Входной файл
+  entry: [
+    './src/js/index.js'
+  ],
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
 
   // Выходной файл
   output: {
@@ -13,7 +26,11 @@ module.exports = {
   },
 
   // Source maps для удобства отладки
+<<<<<<< HEAD
   devtool: 'source-map',
+=======
+  devtool: "source-map",
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
 
   module: {
     rules: [
@@ -25,7 +42,11 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
+<<<<<<< HEAD
             presets: ['@babel/preset-env']
+=======
+            presets: ['@babel/preset-env'],
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
           }
         }
       },
@@ -37,8 +58,13 @@ module.exports = {
           MiniCssExtractPlugin.loader, // Extract css to separate file
           'css-loader', // translates CSS into CommonJS
           'postcss-loader', // parse CSS and add vendor prefixes to CSS rules
+<<<<<<< HEAD
           'sass-loader' // compiles Sass to CSS, using Node Sass by default
         ]
+=======
+          'sass-loader', // compiles Sass to CSS, using Node Sass by default
+        ],
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
       },
 
       // Подключаем шрифты из css
@@ -47,7 +73,11 @@ module.exports = {
         use: [
           {
             loader: 'file-loader?name=./fonts/[name].[ext]'
+<<<<<<< HEAD
           }
+=======
+          },
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
         ]
       },
 
@@ -57,10 +87,17 @@ module.exports = {
         use: [
           {
             loader: 'file-loader?name=./static/[name].[ext]'
+<<<<<<< HEAD
           }
         ]
       }
     ]
+=======
+          },
+        ]
+      },
+    ],
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   },
   plugins: [
     // Подключаем файл html, стили и скрипты встроятся автоматически
@@ -70,21 +107,37 @@ module.exports = {
       inject: true,
       minify: {
         removeComments: true,
+<<<<<<< HEAD
         collapseWhitespace: false
+=======
+        collapseWhitespace: false,
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
       }
     }),
 
     // Кладем стили в отдельный файлик
     new MiniCssExtractPlugin({
+<<<<<<< HEAD
       filename: 'style.css'
+=======
+      filename: 'style.css',
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     }),
 
     // Копируем картинки
     new CopyWebpackPlugin([
       {
         from: './src/img',
+<<<<<<< HEAD
         to: 'img'
       }
     ])
   ]
 }
+=======
+        to: 'img',
+      },
+    ])
+  ],
+};
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54

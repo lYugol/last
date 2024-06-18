@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 @charset "UTF-8";
+=======
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
 @font-face {
   font-family: 'TT Lakes Regular';
   src: url('../fonts/TT/TTLakes-Regular.ttf');
@@ -52,6 +55,10 @@
     display: flex;
     margin-left: 16px;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .swiper-slide {
     width: 240px !important;
     height: 72px !important;
@@ -94,17 +101,33 @@
     top: 88px;
   }
   /* закрыл*/
+<<<<<<< HEAD
+=======
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .sample-slider .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .swiper-pagination-bullet {
     background-color: #ccc;
     opacity: 1 !important;
   }
+<<<<<<< HEAD
   .custom-pagination .swiper-pagination-bullet {
     background-color: #dddddd;
   }
+=======
+
+  .custom-pagination .swiper-pagination-bullet {
+    background-color: #dddddd;
+  }
+
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   .custom-pagination .swiper-pagination-bullet-active {
     background-color: #b5b6bc;
   }
@@ -321,4 +344,8 @@
   .swiper-slide:nth-of-type(n + 9):nth-of-type(-n + 11).visible {
     display: block;
   }
+<<<<<<< HEAD
 } /*# sourceMappingURL=equipment.css.map */
+=======
+}
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54

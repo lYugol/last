@@ -39,9 +39,13 @@
     "mini-css-extract-plugin": "^0.8.2",
     "node-sass": "^4.14.1",
     "postcss-loader": "^3.0.0",
+<<<<<<< HEAD
     "sass": "^1.77.4",
     "sass-loader": "^7.3.1",
     "style-loader": "^4.0.0",
+=======
+    "sass-loader": "^7.3.1",
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
     "webpack": "^4.47.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.3"
@@ -55,8 +59,11 @@
     "plugins": {
       "autoprefixer": {}
     }
+<<<<<<< HEAD
   },
   "dependencies": {
     "normalize.css": "^8.0.1"
+=======
+>>>>>>> e72c493548ab557700d14d1aa9be081a3d030d54
   }
 }
